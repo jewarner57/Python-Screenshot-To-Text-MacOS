@@ -2,6 +2,8 @@ import os
 
 # This file installs the necessary libraries to use this application
 
+# update homebrew
+os.system("brew update")
 
 # install pillow
 os.system("brew install Homebrew/python/pillow")
